@@ -1,1 +1,1 @@
-# -jakarta-transformer-extension
+# jakarta-transformer-extension
