@@ -73,4 +73,17 @@
       </plugins>
     </pluginManagement>
   </build>
+  <distributionManagement>
+     <repository>
+       <!--
+       The username and password are retrieved by looking for the Repository
+       Id in the $HOME/.m2/settings.xml file.
+       -->
+       <!-- id Must Match the Unique Identifier in settings.xml -->
+       <id>io.cloudrepo</id>
+       <url>https://end2endlogic.mycloudrepo.io/repositories/end2endlogic-opensource-release</url>
+       <releases/>
+     </repository>
+  </distributionManagement>
 </project>
+
